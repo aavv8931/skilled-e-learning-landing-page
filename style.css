@@ -1,0 +1,50 @@
+/* Mobile screen size 375px x 2615px */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 375px;
+    height: 2615px;
+    font-family: "Plus Jakarta Sans";
+}
+
+/*Header*/
+
+header{
+    width: 348px;
+    height: 48px;
+    margin-bottom: 38px;
+    padding: 16px 16px 0 16px;
+    
+}
+
+.div-header{
+    width: 348px;
+    height: 48px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.div-logo{
+    padding-top: 12px;
+}
+
+.logo{
+    width: 89px;
+}
+
+.btn{
+    width: 140px;
+    height: 100%;
+    border-radius: 28px;
+    border: 0;
+    color: #fff;
+    background-color: #12183F;
+    font-size: 16px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 28px;
+}
