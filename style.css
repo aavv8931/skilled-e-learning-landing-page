@@ -1,13 +1,32 @@
 /* Mobile screen size 375px x 2615px */
-*{
-    margin: 0;
-    padding: 0;
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
 }
 
 body{
     width: 375px;
     height: 2615px;
     font-family: "Plus Jakarta Sans";
+    box-sizing: border-box;
+    overflow: hidden;
+    font-size: 16px;
 }
 
 /*Header*/
@@ -47,4 +66,42 @@ header{
     font-weight: 700;
     font-style: normal;
     line-height: 28px;
+}
+
+/* Main Section */
+
+/* Topic */
+
+.principal{
+    width: 343px;
+    height: 285px;  /* Tomar en cuenta esta medida*/
+    margin: 0 auto;
+}
+
+.principal h1{
+    color: #13183F;
+    font-weight: 800;
+    font-size: 2.5rem;
+    height: 101px;
+    margin-bottom: 26px;
+}
+
+.principal p{
+    color: #83869A;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 26px;
+    height: 78px;
+    margin-bottom: 24px;
+}
+
+.principal button{
+    width: 167px;
+    height: 56px;
+    background-image: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+    border-radius: 31.5px;
+    border: none;
+    font-weight: 700;
+    font-size: 1rem;
+    color: #fff; 
 }
