@@ -25,7 +25,7 @@ body{
     height: 2615px;
     font-family: "Plus Jakarta Sans";
     box-sizing: border-box;
-    overflow: hidden;
+    /* overflow: hidden; */
     font-size: 16px;
 }
 
@@ -104,4 +104,17 @@ header{
     font-weight: 700;
     font-size: 1rem;
     color: #fff; 
+}
+
+/* Section for images in all sizes */
+
+/* Mobile Section */
+
+#image-hero-mobile{
+    background-image: url(./assets/image-hero-mobile.png);
+     background-size: 100%;
+    /*background-repeat: no-repeat; */
+    width: 327px;
+    height: 269px;
+    margin: 30px 24px 66px 24px;
 }
