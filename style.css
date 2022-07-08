@@ -34,8 +34,7 @@ body{
 header{
     width: 348px;
     height: 48px;
-    margin-bottom: 38px;
-    padding: 16px 16px 0 16px;
+    margin: 16px 16px 38px 16px;
     
 }
 
@@ -55,7 +54,7 @@ header{
     width: 89px;
 }
 
-.btn{
+.btn-header{
     width: 140px;
     height: 100%;
     border-radius: 28px;
@@ -75,7 +74,7 @@ header{
 .principal{
     width: 343px;
     height: 285px;  /* Tomar en cuenta esta medida*/
-    margin: 0 auto;
+    margin: 0 16px 61px 16px;
 }
 
 .principal h1{
@@ -109,14 +108,16 @@ header{
 /* Section for images in all sizes */
 
 /* Mobile Section */
+.images{
+    margin: 30px 24px 66px 24px;
+}
 
 #image-hero-mobile{
     background-image: url(./assets/image-hero-mobile.png);
-     background-size: 100%;
-    /*background-repeat: no-repeat; */
+     background-size: 112%;
+    background-repeat: no-repeat;
     width: 327px;
-    height: 269px;
-    margin: 30px 24px 66px 24px;
+    height: 301px;
 }
 
 /* Courses Section */
@@ -216,4 +217,40 @@ header{
     font-size: 1.125rem;
     font-weight: 700;
     text-decoration: none;
+}
+
+/*FOOTER*/
+
+footer{
+    width: 375px;
+    height: 120px;
+    background-color: #13183F;
+    
+}
+
+.footer{
+    padding: 36px 16px;
+    width: 343px;
+    height: 48px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#footer-img{
+    width: 89px;
+    height: 25px;
+    padding: 7px 0 6px;
+}
+
+.btn-footer{
+    width: 140px;
+    height: 100%;
+    background: linear-gradient(180deg, #4851ff 0%, #f02aa6 100%);
+    color: #fff;
+    font-weight: 700;
+    font-size: 1rem;
+    border: none;
+    border-radius: 28px;
+    
 }
