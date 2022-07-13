@@ -20,6 +20,8 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 
+/* Mobile Style */
+
 body{
     width: 375px;
     height: 2615px;
@@ -39,8 +41,6 @@ header{
 }
 
 .div-header{
-    width: 348px;
-    height: 48px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -251,6 +251,120 @@ footer{
     font-weight: 700;
     font-size: 1rem;
     border: none;
-    border-radius: 28px;
-    
+    border-radius: 28px;   
+}
+
+/* Tablet style */
+/* Revisar si la medida esta bien */
+@media (min-width: 376px) {
+    body{
+        width: 768px;
+        height: 1760px;
+        background: #fff;
+    }
+
+    /* Header for Tablet Device */
+     
+    header{
+        width: 689px;
+        margin: 24px 40px 99px 39px;
+    }
+
+    /* Main Section */
+    .top{
+        display: flex;
+        flex-direction: row;
+        height: 450px;
+        width: 100%;
+    }
+    .principal{
+        width: 50%;
+        height: 284px;
+        margin-left: 39px;
+        display: inline-block;
+        
+    }
+
+    .principal h1{
+        width: 326px;
+        height: 101px;
+        margin-bottom: 25px;
+        line-height: 50.4px;
+        
+    }
+
+    .principal p{
+        width: 398px;
+        height: 79px;
+    }
+
+    .images{
+        overflow-y: hidden;
+        height: 640px;
+        width: 50%;
+        position: relative;
+        top: -290px;
+        left: -55px;
+        margin: 0 -55px 0 0;
+    }
+
+    #image-hero-mobile{
+        display: none;
+    }
+    #image-hero-tablet{
+        background: url(./assets/image-hero-tablet.png);
+        width: 640.71px;
+        height: 640px;
+        /* display: inline-block; */
+        
+        z-index: 2;
+        margin: 0;
+    }
+
+    /* Course Section */
+
+    .courses{
+        height: 999px;
+        margin-top: 44px;
+    }
+
+    .courses-div{
+        width: 689px;
+        height: 913px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 10px;
+    }
+
+    .description{
+        width: 339px;
+        height: 259px;
+    }
+
+    .description h2{
+        padding: 56px 21px 139px 32px;
+    }
+
+    /* Every Course div  */
+    .course{
+        width: 340px;
+        height: 283px;
+        margin-bottom: 32px;
+    }
+
+    .animation, .animation-desc{
+        height: 240px;
+    }
+
+    /* Footer */
+
+    footer{
+        width: 100%;
+    }
+
+    .footer{
+        width: 689px;
+        height: 48px;
+        padding: 36px 39px 36px 40px;
+    }
 }
