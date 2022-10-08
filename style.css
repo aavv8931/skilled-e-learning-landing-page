@@ -299,7 +299,7 @@ footer{
     }
 
     .images{
-        overflow-y: hidden;
+        overflow: hidden;
         height: 640px;
         width: 50%;
         position: relative;
@@ -366,5 +366,88 @@ footer{
         width: 689px;
         height: 48px;
         padding: 36px 39px 36px 40px;
+    }
+}
+
+/* Desktop style */
+
+@media (min-width: 769px){
+    body{
+        width: 1440px;
+        height: 1845px;
+    }
+
+    header{
+        width: 1148px;
+        margin: 24px 165px 185px 165px;
+    }
+
+    .logo{
+        width: 111px;
+    }
+
+    .btn-header{
+        width: 167px;
+        height: 56px;
+        font-size: 1.125rem;
+    }
+    .div-button{
+        margin-right: 32px;
+    }
+
+    /* Main Section */
+
+    .principal{
+        width: 457px;
+        height: 359px;
+        margin-left: 165px;
+    }
+
+    .principal h1{
+        width: 100%;
+        height: 143px;
+        font-size: 3.5rem;
+        margin-bottom: 29px;
+        line-height: 71px;
+    }
+
+    .principal p{
+        font-size: 1.125rem;
+        line-height: 28px;
+        height: 84px;
+        width: 445px;
+        margin-bottom: 40px;
+    }
+
+    .principal button{
+        height: 63px;
+        font-size: 1.125rem;
+        line-height: 28px;
+    }
+
+    /* Section for images in all sizes */
+
+    .images{
+        overflow: hidden;
+        height: 936px;
+        width: 50%;
+        position: relative;
+        top: -410px;
+        left: 83px;
+        margin: 0 -55px 0 0;
+    }
+
+    #image-hero-mobile{
+        display: none;
+    }
+
+    #image-hero-tablet{
+        display: none;
+    }
+
+    #image-hero-desktop{
+        background: url(./assets/image-hero-desktop.png);
+        width: 991px;
+        height: 936px;
     }
 }
