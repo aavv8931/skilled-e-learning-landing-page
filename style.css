@@ -391,16 +391,33 @@ footer{
         height: 56px;
         font-size: 1.125rem;
     }
+
+    /* button:hover{
+        background-color: #666CA3;
+    } */
+
     .div-button{
-        margin-right: 32px;
+        margin-right: 44px;
     }
 
     /* Main Section */
+
+    main{
+        height: 1500px;
+    }
+
+    .top{
+        height: 612px;
+    }
 
     .principal{
         width: 457px;
         height: 359px;
         margin-left: 165px;
+    }
+
+    #btn-principal:hover{
+        background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
     }
 
     .principal h1{
@@ -425,11 +442,13 @@ footer{
         line-height: 28px;
     }
 
+
+
     /* Section for images in all sizes */
 
     .images{
         overflow: hidden;
-        height: 936px;
+        height: 880px;
         width: 50%;
         position: relative;
         top: -410px;
@@ -449,5 +468,74 @@ footer{
         background: url(./assets/image-hero-desktop.png);
         width: 991px;
         height: 936px;
+    }
+
+    /* Courses Section */
+
+    .courses{
+        height: 888px;
+    }
+
+    .courses-div{
+        width: 1110px;
+        height: 748px;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .description{
+        width: 350px;
+        height: 322px;
+        margin-top: 24px;
+    }
+
+    .description h2{
+        height: 120px;
+        font-size: 2rem;
+        line-height: 40px;
+        padding: 64px 32px 138px 32px;
+    }
+
+    .courses-div{
+        width: 350px;
+        height: 346px;
+        margin: 0px 165px 140px 165px;
+    }
+
+    .course-desc{
+        height: 346px;
+        top: -60px;
+    }
+
+    .course-desc h3{
+        padding-top: 92px;
+        font-size: 1.5rem;
+        line-height: 30px;
+    }
+
+    .course-desc p{
+        font-size: 1.125rem;
+        line-height: 28px;
+        width: 286px;
+        height: 112px;
+    }
+
+    .course-desc a{
+        font-size: 1.125rem;
+        line-height: 28px;
+    }
+
+    footer{
+        width: 1440px;
+        height: 130px;
+    }
+
+    .footer{
+        width: 1109px;
+        height: 56px;
+        margin: 32px 165px;
+    }
+
+    .btn-footer:hover{
+        background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%);
     }
 }
